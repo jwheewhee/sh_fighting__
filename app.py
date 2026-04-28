@@ -221,7 +221,7 @@ DAY_DATA = {
         "emoji": "🎶",
         "photo": None,
         "video": None,
-        "youtube": "https://www.youtube.com/watch?v=uuGtrxDsrws",
+        "youtube": "https://www.youtube.com/watch?v=OgaM0BJWxXs",
         "message": (
             "오늘은 그냥 쉬어\n"
             "내가 좋아하는 노래 하나 추천해줄게 ㅎㅎ\n"
@@ -566,7 +566,7 @@ def show_card(day: int):
 # ─────────────────────────────────────────────
 # 헤더
 # ─────────────────────────────────────────────
-st.markdown('<div class="main-title">🌻 언니에게 💛</div>', unsafe_allow_html=True)
+st.markdown('<div class="main-title">🌻 수현 언니에게 💛</div>', unsafe_allow_html=True)
 st.markdown('<div class="sub-title">30일 동안 매일 열어봐 ☀️</div>', unsafe_allow_html=True)
 
 tab1, tab2, tab3 = st.tabs(["📅 오늘의 카드", "🗓️ 전체 보기", "📷 추억 모음집"])
