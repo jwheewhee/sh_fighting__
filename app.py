@@ -110,7 +110,7 @@ DAY_DATA = {
     },
     8: {
         "emoji": "🎉",
-        "photo": "photo_01.jpg",
+        "photo": "photo_01.JPG",
         "video": None,
         "youtube": None,
         "message": (
@@ -244,7 +244,7 @@ DAY_DATA = {
     19: {
         "emoji": "📸",
         "photo": None,
-        "video": "video_01.mp4",
+        "video": "video_01.MP4",
         "youtube": None,
         "message": (
             "언니랑 사진 또 찍고 싶다!\n"
@@ -304,7 +304,7 @@ DAY_DATA = {
     24: {
         "emoji": "💌",
         "photo": None,
-        "video": "video_03.mp4",
+        "video": "video_03.MP4",
         "youtube": None,
         "message": (
             "이 메시지들 보면서 언니가 한 번이라도 웃었으면 좋겠어\n"
@@ -338,7 +338,7 @@ DAY_DATA = {
     },
     27: {
         "emoji": "😤",
-        "photo": "photo_05.jpg",
+        "photo": "photo_05.JPG",
         "video": None,
         "youtube": None,
         "message": (
@@ -350,7 +350,7 @@ DAY_DATA = {
     },
     28: {
         "emoji": "💐",
-        "photo": "photo_06.jpg",
+        "photo": "photo_06.JPG",
         "video": None,
         "youtube": None,
         "message": (
@@ -394,17 +394,17 @@ DAY_DATA = {
 # label: 탭3에서 보여줄 제목
 # ─────────────────────────────────────────────
 MEMORY_COLLECTION = [
-    {"type": "photo", "file": "photo_01.jpg", "label": "Day 8 — 메리연남크리스마스 🎉"},
+    {"type": "photo", "file": "photo_01.JPG", "label": "Day 8 — 메리연남크리스마스 🎉"},
     {"type": "photo", "file": "photo_02.jpg", "label": "Day 13 — 동성 배경 ㅋㅋ 😂"},
     {"type": "photo", "file": "photo_03.jpg", "label": "Day 16 — 언니한테 감동 받은 날 💌"},
-    {"type": "video", "file": "video_01.mp4", "label": "Day 19 — 인생네컷 타임랩스 1 📸"},
+    {"type": "video", "file": "video_01.MP4", "label": "Day 19 — 인생네컷 타임랩스 1 📸"},
     {"type": "photo", "file": "photo_04.jpg", "label": "Day 20 — 맛있는 거 먹은 날 🍽️"},
-    {"type": "video", "file": "video_02.mp4", "label": "Day 23 — 인생네컷 타임랩스 2 😂"},
-    {"type": "video", "file": "video_03.mp4", "label": "Day 24 — 언니가 웃었으면 해서 💌"},
-    {"type": "photo", "file": "photo_05.jpg", "label": "Day 27 — 너무하다 저기 증말(?) 😤"},
-    {"type": "photo", "file": "photo_06.jpg", "label": "Day 28 — 언니 제일 예뻐 💐"},
+    {"type": "video", "file": "video_02.MP4", "label": "Day 23 — 인생네컷 타임랩스 2 😂"},
+    {"type": "video", "file": "video_03.MP4", "label": "Day 24 — 언니가 웃었으면 해서 💌"},
+    {"type": "photo", "file": "photo_05.JPG", "label": "Day 27 — 너무하다 저기 증말(?) 😤"},
+    {"type": "photo", "file": "photo_06.JPG", "label": "Day 28 — 언니 제일 예뻐 💐"},
     {"type": "photo", "file": "photo_07.jpg", "label": "Day 30 — 피크닉 또 가자 🌻"},
-    {"type": "video", "file": "video_04.mp4", "label": "또 찍쟝 🎁"},
+    {"type": "video", "file": "video_04.MP4", "label": "또 찍쟝 🎁"},
 ]
 
 EMOJI_FALLBACK = ["🌻", "🌸", "🍊", "💛", "🌈", "☀️", "🌺", "🎀", "🍀", "🌙",
@@ -664,6 +664,6 @@ with tab3:
 # ─────────────────────────────────────────────
 st.markdown("""
 <div style='text-align:center; color:#F5A623; font-size:0.9rem; margin-top:2rem; font-family:Gaegu,cursive;'>
-언니 사랑해 💛 꼭 이겨내자 🌻
+언니를 응원하는 희원이가 💛 꼭 이겨내자 🌻
 </div>
 """, unsafe_allow_html=True)
