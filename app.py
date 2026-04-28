@@ -292,7 +292,7 @@ DAY_DATA = {
     23: {
         "emoji": "😂",
         "photo": None,
-        "video": "video_02.mp4",
+        "video": "video_02.MP4",
         "youtube": None,
         "message": (
             "이날 다시 생각해도 진짜 웃기지 않아?? 😂\n"
