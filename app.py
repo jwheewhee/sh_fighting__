@@ -5,7 +5,7 @@ from pathlib import Path
 # 페이지 기본 설정
 # ─────────────────────────────────────────────
 st.set_page_config(
-    page_title="언니에게 💛",
+    page_title="수현 언니에게 💛",
     page_icon="🌻",
     layout="centered",
     initial_sidebar_state="collapsed",
@@ -25,7 +25,7 @@ DAY_DATA = {
         "emoji": "🌱",
         "photo": None,
         "video": None,
-        "youtube": None,
+        "youtube": "https://www.youtube.com/watch?v=URRimPZBHf8",
         "message": (
             "언니 오늘 입원했겠네\n"
             "두렵고 떨리는 거 다 알아\n"
@@ -37,7 +37,7 @@ DAY_DATA = {
         "emoji": "🌙",
         "photo": None,
         "video": None,
-        "youtube": None,
+        "youtube": "https://www.youtube.com/watch?v=BzYnNdJhZQw",
         "message": (
             "수술 전날 밤이야\n"
             "걱정 많이 되지? 그 마음 당연한 거야..!\n"
@@ -50,7 +50,7 @@ DAY_DATA = {
         "emoji": "🙏",
         "photo": None,
         "video": None,
-        "youtube": "https://www.youtube.com/watch?v=BzYnNdJhZQw",
+        "youtube": "https://www.youtube.com/watch?v=K_8ITDLT4G8",
         "message": (
             "언니 오늘 수술 잘 받고 와!\n"
             "열심히 기도하고 있을게\n"
@@ -269,7 +269,7 @@ DAY_DATA = {
         "emoji": "🌊",
         "photo": None,
         "video": None,
-        "youtube": "https://www.youtube.com/watch?v=K_8ITDLT4G8",
+        "youtube": "https://www.youtube.com/watch?v=19oT04OuBhg",
         "message": (
             "파도가 강하게 칠수록 모래사장이 더 단단해진대\n"
             "지금 언니한테 파도가 엄청 세게 치고 있는 거 알아\n"
@@ -361,18 +361,6 @@ DAY_DATA = {
         ),
     },
     29: {
-        "emoji": "🎊",
-        "photo": None,
-        "video": None,
-        "youtube": "https://www.youtube.com/watch?v=19oT04OuBhg",
-        "message": (
-            "지금 여기까지 왔다면 언니 정말 멋지다!\n"
-            "내 진심을 열심히 담았는데 잘 전달 됐으면 좋겠당\n"
-            "응원이 됐나용 ㅎㅎ\n"
-            "이렇게 난 항상 언니 옆에서 응원할거야!!"
-        ),
-    },
-    30: {
         "emoji": "🌻",
         "photo": "photo_07.jpg",
         "video": None,
@@ -382,9 +370,18 @@ DAY_DATA = {
             "이번엔 다른 데로! 더 예쁜 데 찾아서!\n"
             "언니 나으면 여행도 가구 ~\n"
             "그날만 기다리는중 ㅎㅎ 💛\n\n"
-            "언니 30일 동안 정말 수고 많았어!\n"
-            "앞으로도 잘 이겨내보쟈 진짜 다 잘 될 거야 ~~🍀\n"
-            "나는 항상 언니 편이야!! 지금도, 앞으로도, 영원히🌻"
+        ),
+    },
+    30: {
+        "emoji": "🎊",
+        "photo": None,
+        "video": None,
+        "youtube": "https://www.youtube.com/watch?v=maYYrJXKq3Q",
+        "message": (
+            "언니 30일동안 정말 수고 많았어!\n"
+            "내 진심을 열심히 담았는데 잘 전달 됐으면 좋겠당\n"
+            "나는 항상 언니 편이야!! 지금도, 앞으로도, 영원히🌻\n"
+            "앞으로도 잘 이겨내보쟈 진짜 다 잘 될 거야 ~~🍀"
         ),
     },
 }
